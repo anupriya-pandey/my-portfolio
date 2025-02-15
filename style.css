@@ -18,23 +18,12 @@ body {
     background-position: center;
 }
 
-.background-upload {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
-h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
 .profile-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    margin-top: 50px;
 }
 
 .profile-pic {
@@ -45,14 +34,11 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.summary {
-    width: 80%;
-    max-width: 600px;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+.background-upload {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0.7;
 }
 
 footer p {
@@ -74,4 +60,10 @@ nav button {
 }
 
 nav button:hover {
-    background: #0056b3};
+    background: #0056b3;
+}
+body {
+    background-image: url('default-background.jpg'); /* Default background */
+    background-size: cover;
+    background-position: center;
+}
