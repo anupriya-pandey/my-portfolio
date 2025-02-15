@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.jss">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -19,6 +19,11 @@
             <button onclick="navigate('education')">Education</button>
         </nav>
     </div>
-    <script src="script.cs"></script>
+    <script src="script.js"></script>
 </body>
+<!-- Add a file input for profile picture upload -->
+<input type="file" id="profile-pic-upload" class="background-upload" accept="image/*" onchange="setProfilePic(event)">
+<div class="profile-section">
+    <img id="profile-pic" class="profile-pic" src="default-pic.jpg" alt="Profile Picture">
+</div>
 </html>
